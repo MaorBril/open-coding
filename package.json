@@ -1,7 +1,7 @@
 {
-  "name": "genai-assessment",
+  "name": "ai-interviews-careers",
   "version": "1.0.0",
-  "description": "Technical Assessment in the GenAI World - Training platform for AI-augmented interviews",
+  "description": "AI Interviews Careers (ai-interviews.careers) - Training platform for AI-augmented interviews",
   "scripts": {
     "dev": "next dev -p 4000",
     "build": "next build",

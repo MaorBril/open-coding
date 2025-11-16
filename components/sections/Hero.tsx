@@ -47,7 +47,7 @@ export const Hero: React.FC = () => {
           </div>
           <div className="flex items-center gap-2">
             <span className="text-success-600 text-lg">✓</span>
-            <span className="font-medium">14 Real Scenarios</span>
+            <span className="font-medium">Real Scenarios</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-success-600 text-lg">✓</span>

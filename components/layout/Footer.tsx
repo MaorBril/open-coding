@@ -4,7 +4,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <h3 className="text-lg font-semibold mb-4">About</h3>
             <p className="text-gray-400 text-sm">
@@ -48,9 +48,30 @@ export const Footer: React.FC = () => {
               </li>
             </ul>
           </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Contact</h3>
+            <ul className="space-y-2 text-sm text-gray-400">
+              <li>
+                <a href="https://ai-interviews.careers" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  ai-interviews.careers
+                </a>
+              </li>
+              <li>
+                <a href="mailto:info@ai-interviews.careers" className="hover:text-white transition-colors">
+                  info@ai-interviews.careers
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-sm text-gray-400">
+          <p className="mb-2">
+            <a href="https://ai-interviews.careers" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors font-semibold">
+              ai-interviews.careers
+            </a>
+          </p>
           <p>
             Built with Next.js, React, TypeScript, and TailwindCSS.
             Research-backed insights from industry leaders.

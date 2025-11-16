@@ -1,4 +1,7 @@
-# Technical Assessment in the GenAI World
+# AI Interviews Careers
+
+**Website:** [ai-interviews.careers](https://ai-interviews.careers)
+**Contact:** info@ai-interviews.careers
 
 A comprehensive Next.js web application that serves as both an informational site and training platform for conducting and participating in AI-augmented technical interviews.
 
@@ -344,3 +347,8 @@ Built with:
 ---
 
 **Built for the GenAI era. Because 2025 interviews test how you think WITH AI, not just what you know.**
+
+## Contact
+
+- **Website:** [ai-interviews.careers](https://ai-interviews.careers)
+- **Email:** info@ai-interviews.careers

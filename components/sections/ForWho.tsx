@@ -15,18 +15,12 @@ export const ForWho: React.FC = () => {
 
           {/* Image Placeholder - Problem Statement */}
           <div className="max-w-5xl mx-auto mb-12">
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white/50 bg-gradient-to-br from-gray-100 to-gray-200 aspect-video group hover:scale-[1.02] transition-all duration-300">
-              <div className="absolute inset-0 flex flex-col items-center justify-center p-8 bg-gradient-to-br from-accent-900/90 to-primary-900/90 backdrop-blur-sm">
-                <div className="w-24 h-24 bg-white/20 backdrop-blur-md rounded-3xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <svg className="w-12 h-12 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                </div>
-                <h3 className="text-2xl font-bold text-white mb-4">The AI Interview Challenge</h3>
-                <p className="text-white/90 text-center max-w-2xl text-sm leading-relaxed">
-                  <strong>Image Prompt:</strong> Split-screen - Left: nervous candidate copy-pasting from ChatGPT (red tint), Right: confident candidate explaining code to engaged interviewer (green tint), professional interview setting
-                </p>
-              </div>
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white/50 aspect-video group hover:scale-[1.02] transition-all duration-300">
+              <img
+                src="/images/interview-challenge.png"
+                alt="Split screen comparison of good vs bad AI usage in interviews"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
